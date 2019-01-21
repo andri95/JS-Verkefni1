@@ -12,13 +12,13 @@ var er global breyta. Eins og ég skildi þetta er let er takmarkað við blokki
 **4. Endurskrifaðu kóðann með for lykkjunni.**
 	```javascript	
 	let x; //Virkaði nákvæmlega eins með eða án let x;
-	
-	
 	for(x = 9; x >= 1; x--){
 		console.log("hello" + x);
 	};
 	```
+	
 **5. Skilgreindu sama fallið á þrjá mismunandi vegu.**
+
 	```javascript
 	function leggjaSaman(tala){
 		return tala + tala;
