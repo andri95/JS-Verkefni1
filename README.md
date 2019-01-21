@@ -1,16 +1,16 @@
 # JS-Verkefni1
 
 **1. Hvað er null og undefined?**
-	Ef breytu er gefið gildið null hefur breytan ekkert gildi en er samt ekki tóm (null er ekki það sama og 0, þar sem 0 er gildi). undefined þýðir að breytan er til en ekkert gildi hefur verið sett á hana.
+Ef breytu er gefið gildið null hefur breytan ekkert gildi en er samt ekki tóm (null er ekki það sama og 0, þar sem 0 er gildi). undefined þýðir að breytan er til en ekkert gildi hefur verið sett á hana.
 
 **2. Hvað gerir 'use strict' í JavaScript kóða?**
-	Use strict neyðir translatorinn í vafranum til að stilla sig inn á ECMA-script 6 og þær reglur sem gilda þar.
+Use strict neyðir translatorinn í vafranum til að stilla sig inn á ECMA-script 6 og þær reglur sem gilda þar.
 
 **3. Hver er munurinn á let, var, const?**
-	var er global breyta. Eins og ég skildi þetta er let er takmarkað við blokkina sem það er skilgreint í. const er ekki hægt að update-a. Ég gæti td. ekki gert const nafn = "andri" og svo const nafn = "fannar". 
+var er global breyta. Eins og ég skildi þetta er let er takmarkað við blokkina sem það er skilgreint í. const er ekki hægt að update-a. Ég gæti td. ekki gert const nafn = "andri" og svo const nafn = "fannar". 
 
 **4. Endurskrifaðu kóðann með for lykkjunni.**
-	```javascript
+	```javascript	
 	let x; //Virkaði nákvæmlega eins með eða án let x;
 	for(x = 9; x >= 1; x--){
 		console.log("hello" + x);
@@ -27,10 +27,10 @@
 	const bla = () => {tala + tala};
 	```
 **6. Útskýrðu hvað eftirfarandi kóði gerir, hvað gera svigarnir?**
-	Náði þessu ekki alveg í tímanum, reyndi að finna eitthvað um þetta á netinu og eins og ég skil það eru ytri svigarnir fall, fallið að innan er parameter fyrir það fall. Man ekki hvað () í endan gerir.
+Náði þessu ekki alveg í tímanum, reyndi að finna eitthvað um þetta á netinu og eins og ég skil það eru ytri svigarnir fall, fallið að innan er parameter fyrir það fall. Man ekki hvað () í endan gerir.
 
 **7. Af hverju birtist 1 en ekki 10? ....**
-	Átti í smá vandræðum með þetta. Ef ég keyri þetta svona:
+Átti í smá vandræðum með þetta. Ef ég keyri þetta svona:
 	
 	```javascript
 	"use strict";
