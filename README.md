@@ -1,4 +1,4 @@
-# JS-Verkefni1
+# JS-Verkefni1 - Andri Fannar Pétursson
 
 **1. Hvað er null og undefined?**
 Ef breytu er gefið gildið null hefur breytan ekkert gildi en er samt ekki tóm (null er ekki það sama og 0, þar sem 0 er gildi). undefined þýðir að breytan er til en ekkert gildi hefur verið sett á hana.
@@ -12,6 +12,8 @@ var er global breyta. Eins og ég skildi þetta er let er takmarkað við blokki
 **4. Endurskrifaðu kóðann með for lykkjunni.**
 	```javascript	
 	let x; //Virkaði nákvæmlega eins með eða án let x;
+	
+	
 	for(x = 9; x >= 1; x--){
 		console.log("hello" + x);
 	};
